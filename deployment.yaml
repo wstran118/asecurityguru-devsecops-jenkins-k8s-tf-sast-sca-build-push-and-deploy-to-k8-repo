@@ -13,7 +13,7 @@ spec:
         app: asgbuggy
     spec:
       containers:
-      - name: latest
+      - name: asg
         image: https://139176429329.dkr.ecr.us-west-2.amazonaws.com
         imagePullPolicy: Always
         ports:
